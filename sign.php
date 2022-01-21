@@ -38,7 +38,7 @@
 
                <div style="color:#212121; font-size:20px">It's free and always will be</div>
 
-               <form name="user-sign-up">
+               <form name="user-sign-up" action="sign_handel.php" method="post" >
 
                     <div class="sign-up-form">
 
@@ -96,7 +96,7 @@
 
                              </div>
 
-                         <input type="submit" name="Sign Up" value="Sign Up" class="sign-up">
+                         <input type="submit" name="register" value="Sign Up" class="sign-up">
 
                         </div>
 
